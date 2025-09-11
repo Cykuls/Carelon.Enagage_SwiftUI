@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		E6EAE8462E729A71001761DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6EAE8302E729A6F001761DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6EAE8372E729A6F001761DC;
+			remoteInfo = Carelon.Engage_SwiftUI;
+		};
+		E6EAE8502E729A71001761DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6EAE8302E729A6F001761DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6EAE8372E729A6F001761DC;
+			remoteInfo = Carelon.Engage_SwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6EAE8382E729A6F001761DC /* Carelon.Engage_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carelon.Engage_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6EAE8452E729A71001761DC /* Carelon.Engage_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Carelon.Engage_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6EAE84F2E729A71001761DC /* Carelon.Engage_SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Carelon.Engage_SwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E6EAE83A2E729A6F001761DC /* Carelon.Engage_SwiftUI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Carelon.Engage_SwiftUI;
+			sourceTree = "<group>";
+		};
+		E6EAE8482E729A71001761DC /* Carelon.Engage_SwiftUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Carelon.Engage_SwiftUITests;
+			sourceTree = "<group>";
+		};
+		E6EAE8522E729A71001761DC /* Carelon.Engage_SwiftUIUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Carelon.Engage_SwiftUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6EAE8352E729A6F001761DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EAE8422E729A71001761DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EAE84C2E729A71001761DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6EAE82F2E729A6F001761DC = {
+			isa = PBXGroup;
+			children = (
+				E6EAE83A2E729A6F001761DC /* Carelon.Engage_SwiftUI */,
+				E6EAE8482E729A71001761DC /* Carelon.Engage_SwiftUITests */,
+				E6EAE8522E729A71001761DC /* Carelon.Engage_SwiftUIUITests */,
+				E6EAE8392E729A6F001761DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6EAE8392E729A6F001761DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6EAE8382E729A6F001761DC /* Carelon.Engage_SwiftUI.app */,
+				E6EAE8452E729A71001761DC /* Carelon.Engage_SwiftUITests.xctest */,
+				E6EAE84F2E729A71001761DC /* Carelon.Engage_SwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6EAE8372E729A6F001761DC /* Carelon.Engage_SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6EAE8592E729A71001761DC /* Build configuration list for PBXNativeTarget "Carelon.Engage_SwiftUI" */;
+			buildPhases = (
+				E6EAE8342E729A6F001761DC /* Sources */,
+				E6EAE8352E729A6F001761DC /* Frameworks */,
+				E6EAE8362E729A6F001761DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E6EAE83A2E729A6F001761DC /* Carelon.Engage_SwiftUI */,
+			);
+			name = Carelon.Engage_SwiftUI;
+			packageProductDependencies = (
+			);
+			productName = Carelon.Engage_SwiftUI;
+			productReference = E6EAE8382E729A6F001761DC /* Carelon.Engage_SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6EAE8442E729A71001761DC /* Carelon.Engage_SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6EAE85C2E729A71001761DC /* Build configuration list for PBXNativeTarget "Carelon.Engage_SwiftUITests" */;
+			buildPhases = (
+				E6EAE8412E729A71001761DC /* Sources */,
+				E6EAE8422E729A71001761DC /* Frameworks */,
+				E6EAE8432E729A71001761DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6EAE8472E729A71001761DC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E6EAE8482E729A71001761DC /* Carelon.Engage_SwiftUITests */,
+			);
+			name = Carelon.Engage_SwiftUITests;
+			packageProductDependencies = (
+			);
+			productName = Carelon.Engage_SwiftUITests;
+			productReference = E6EAE8452E729A71001761DC /* Carelon.Engage_SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6EAE84E2E729A71001761DC /* Carelon.Engage_SwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6EAE85F2E729A71001761DC /* Build configuration list for PBXNativeTarget "Carelon.Engage_SwiftUIUITests" */;
+			buildPhases = (
+				E6EAE84B2E729A71001761DC /* Sources */,
+				E6EAE84C2E729A71001761DC /* Frameworks */,
+				E6EAE84D2E729A71001761DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6EAE8512E729A71001761DC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E6EAE8522E729A71001761DC /* Carelon.Engage_SwiftUIUITests */,
+			);
+			name = Carelon.Engage_SwiftUIUITests;
+			packageProductDependencies = (
+			);
+			productName = Carelon.Engage_SwiftUIUITests;
+			productReference = E6EAE84F2E729A71001761DC /* Carelon.Engage_SwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6EAE8302E729A6F001761DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					E6EAE8372E729A6F001761DC = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					E6EAE8442E729A71001761DC = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = E6EAE8372E729A6F001761DC;
+					};
+					E6EAE84E2E729A71001761DC = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = E6EAE8372E729A6F001761DC;
+					};
+				};
+			};
+			buildConfigurationList = E6EAE8332E729A6F001761DC /* Build configuration list for PBXProject "Carelon.Engage_SwiftUI" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6EAE82F2E729A6F001761DC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E6EAE8392E729A6F001761DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6EAE8372E729A6F001761DC /* Carelon.Engage_SwiftUI */,
+				E6EAE8442E729A71001761DC /* Carelon.Engage_SwiftUITests */,
+				E6EAE84E2E729A71001761DC /* Carelon.Engage_SwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6EAE8362E729A6F001761DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EAE8432E729A71001761DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EAE84D2E729A71001761DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6EAE8342E729A6F001761DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EAE8412E729A71001761DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EAE84B2E729A71001761DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6EAE8472E729A71001761DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6EAE8372E729A6F001761DC /* Carelon.Engage_SwiftUI */;
+			targetProxy = E6EAE8462E729A71001761DC /* PBXContainerItemProxy */;
+		};
+		E6EAE8512E729A71001761DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6EAE8372E729A6F001761DC /* Carelon.Engage_SwiftUI */;
+			targetProxy = E6EAE8502E729A71001761DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E6EAE8572E729A71001761DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = V3SXH4HFW9;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6EAE8582E729A71001761DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = V3SXH4HFW9;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6EAE85A2E729A71001761DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Carelon.Engage_SwiftUI/Carelon.Engage_SwiftUI.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = V3SXH4HFW9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Carelon-Engage-SwiftUI-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cykul.carelon.Engage-cykul";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Carelon.Engage_Dev_Provisioning_Profile;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6EAE85B2E729A71001761DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Carelon.Engage_SwiftUI/Carelon.Engage_SwiftUI.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = V3SXH4HFW9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Carelon-Engage-SwiftUI-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cykul.carelon.Engage-cykul";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Carelon.Engage_Prod_Provisioning_Profile;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E6EAE85D2E729A71001761DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V3SXH4HFW9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cykul.carelonengage.Carelon-Engage-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carelon.Engage_SwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Carelon.Engage_SwiftUI";
+			};
+			name = Debug;
+		};
+		E6EAE85E2E729A71001761DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V3SXH4HFW9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cykul.carelonengage.Carelon-Engage-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carelon.Engage_SwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Carelon.Engage_SwiftUI";
+			};
+			name = Release;
+		};
+		E6EAE8602E729A71001761DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V3SXH4HFW9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cykul.carelonengage.Carelon-Engage-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Carelon.Engage_SwiftUI;
+			};
+			name = Debug;
+		};
+		E6EAE8612E729A71001761DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V3SXH4HFW9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cykul.carelonengage.Carelon-Engage-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Carelon.Engage_SwiftUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6EAE8332E729A6F001761DC /* Build configuration list for PBXProject "Carelon.Engage_SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6EAE8572E729A71001761DC /* Debug */,
+				E6EAE8582E729A71001761DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6EAE8592E729A71001761DC /* Build configuration list for PBXNativeTarget "Carelon.Engage_SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6EAE85A2E729A71001761DC /* Debug */,
+				E6EAE85B2E729A71001761DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6EAE85C2E729A71001761DC /* Build configuration list for PBXNativeTarget "Carelon.Engage_SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6EAE85D2E729A71001761DC /* Debug */,
+				E6EAE85E2E729A71001761DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6EAE85F2E729A71001761DC /* Build configuration list for PBXNativeTarget "Carelon.Engage_SwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6EAE8602E729A71001761DC /* Debug */,
+				E6EAE8612E729A71001761DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6EAE8302E729A6F001761DC /* Project object */;
+}
