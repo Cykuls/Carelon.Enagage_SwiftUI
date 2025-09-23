@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 extension Data {
     mutating func append(_ string: String) {
@@ -13,4 +14,14 @@ extension Data {
             self.append(data)
         }
     }
+}
+
+extension UIColor {
+    /// Hex: #590DBD
+    static let appPurple: UIColor = UIColor(
+        red: CGFloat(0x59) / 255.0,
+        green: CGFloat(0x0D) / 255.0,
+        blue: CGFloat(0xBD) / 255.0,
+        alpha: 1.0
+    )
 }

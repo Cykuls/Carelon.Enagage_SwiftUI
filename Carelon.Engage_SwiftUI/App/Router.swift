@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  Router.swift
 //  Carelon.Engage_SwiftUI
 //
 //  Created by Rishop Babu on 11/09/25.
@@ -7,7 +7,8 @@
 
 import SwiftUI
 
-struct ContentView: View {
+// MARK: - Router
+struct Router: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -20,5 +21,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    Router()
 }

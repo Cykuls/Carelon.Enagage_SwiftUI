@@ -11,7 +11,7 @@ import SwiftUI
 struct Carelon_Engage_SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Router()
         }
     }
 }
