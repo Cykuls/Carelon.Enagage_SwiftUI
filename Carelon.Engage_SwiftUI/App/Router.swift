@@ -9,14 +9,19 @@ import SwiftUI
 
 // MARK: - Router
 struct Router: View {
+    @StateObject  private var appState = AppState()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        switch appState.currentScreen {
+        case .splash:
+            SplashScreenView()
+            
+        case .home:
+            EmptyView()
+            
+        case .login:
+            EmptyView()
         }
-        .padding()
     }
 }
 

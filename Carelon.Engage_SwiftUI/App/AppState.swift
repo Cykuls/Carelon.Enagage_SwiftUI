@@ -10,14 +10,13 @@ import SwiftUI
 
 // MARK: - AppState
 class AppState: ObservableObject {
-    @Published var isLoggedIn: Bool = false
-    @Published var showSplashScreen: Bool = true
+    @Published var currentScreen: AppScreen = .splash
     
     init() {
+        // Always start at splash
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-            self.showSplashScreen = false
+            let loggedIn = UserDefaults.standard.bool(forKey: "isLoggedIn")
+            self.currentScreen = loggedIn ? .home : .login
         }
-        
-        isLoggedIn = UserDefaults.standard.bool(forKey: "isLoggedIn")
     }
 }

@@ -7,9 +7,13 @@
 
 import SwiftUI
 
+// MARK: - SplashScreen View
 struct SplashScreenView: View {
     var body: some View {
+        // MARK: - Main VStack
         VStack {
+            
+            // MARK: - Upper ZStack
             ZStack {
                 Rectangle()
                     .fill(Color.white)
@@ -25,6 +29,7 @@ struct SplashScreenView: View {
                 }
             }
             
+            // MARK: - Lower ZStack
             ZStack {
                 Rectangle()
                     .fill(Color.init(uiColor: .appPurple))
@@ -44,7 +49,7 @@ struct SplashScreenView: View {
                     Spacer()
                 }
             }
-        }// VStack
+        }
         .ignoresSafeArea()
     }
 }

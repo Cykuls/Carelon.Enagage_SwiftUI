@@ -7,6 +7,13 @@
 
 import Foundation
 
+// MARK: - AppState
+enum AppScreen {
+    case splash
+    case login
+    case home
+}
+
 // MARK: - HTTP Methods Enums
 enum HTTPMethod: String {
     case GET = "GET"
