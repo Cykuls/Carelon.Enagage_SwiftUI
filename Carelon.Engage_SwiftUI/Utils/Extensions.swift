@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import UIKit
+import SwiftUI
 
 extension Data {
     mutating func append(_ string: String) {
@@ -24,4 +24,43 @@ extension UIColor {
         blue: CGFloat(0xBD) / 255.0,
         alpha: 1.0
     )
+}
+
+extension View {
+    @ViewBuilder func preventScreenshot(_ shouldPrevent: Bool = true) -> some View {
+        if shouldPrevent {
+            ScreenshotPreventView { self }
+        } else {
+            self
+        }
+    }
+    
+    func hideKeyboard() {
+        UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+    }
+    
+    // Modifier to add a Done button on keyboard
+    func withDoneButton() -> some View {
+        self.toolbar {
+            ToolbarItemGroup(placement: .keyboard) {
+                Spacer()
+                Button("Done") {
+                    hideKeyboard()
+                }
+            }
+        }
+    }
+    
+    func placeholder<Content: View>(
+        when shouldShow: Bool,
+        alignment: Alignment = .leading,
+        @ViewBuilder placeholder: () -> Content) -> some View {
+        
+        ZStack(alignment: alignment) {
+            if shouldShow {
+                placeholder()
+            }
+            self
+        }
+    }
 }

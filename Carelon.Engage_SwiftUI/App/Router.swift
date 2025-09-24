@@ -20,7 +20,7 @@ struct Router: View {
             EmptyView()
             
         case .login:
-            EmptyView()
+            LoginView()
         }
     }
 }

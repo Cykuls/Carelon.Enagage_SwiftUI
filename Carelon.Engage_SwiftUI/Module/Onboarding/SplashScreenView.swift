@@ -50,6 +50,7 @@ struct SplashScreenView: View {
                 }
             }
         }
+        .background(Color.white)
         .ignoresSafeArea()
     }
 }
