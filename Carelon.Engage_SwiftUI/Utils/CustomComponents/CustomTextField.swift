@@ -20,25 +20,25 @@ struct CustomTextField: View {
         VStack(alignment: .leading, spacing: 6) {
             // Top Label
             Text(label)
-                .font(.subheadline)
+                .font(Font.custom("Avenir Next", size: 17.0))
                 .fontWeight(.semibold)
                 .foregroundColor(Color.black.opacity(0.8))
             
             HStack {
                 if isSecure {
                     SecureField("", text: $text, prompt: Text(placeholder).foregroundColor(.black))
-                        .font(.body)
+                        .font(Font.custom("Avenir Next", size: 17.0))
                         .padding(.vertical, 12)
                 } else {
                     TextField(placeholder, text: $text)
-                                            .font(.body)
-                                            .foregroundColor(.black)
-                                            .placeholder(when: text.isEmpty) {
-                                                Text(placeholder)
-                                                    .foregroundColor(.black.opacity(0.6))
-                                            }
-                                            .padding(.vertical, 12)
-                                            .keyboardType(keyBoardType)
+                        .font(Font.custom("Avenir Next", size: 17.0))
+//                        .foregroundColor(.black)
+                        .placeholder(when: text.isEmpty) {
+                            Text(placeholder)
+                                .foregroundColor(.black.opacity(0.6))
+                        }
+                        .padding(.vertical, 12)
+                        .keyboardType(keyBoardType)
                 }
                 
                 if let icon = icon {

@@ -18,18 +18,19 @@ struct LoginView: View {
             VStack {
                 VStack {
                     Text(Constants.appName)
-                        .font(Font.largeTitle)
+                        .font(Font.custom("Avenir Next", size: 34.0))
                         .fontWeight(.bold)
                         .foregroundStyle(Color.init(uiColor: .appPurple))
                     
                     Text(Constants.loginTitle)
-                        .font(Font.footnote)
-                        .fontWeight(.light)
+                        .font(Font.custom("Avenir Next", size: 17.0))
+                        .fontWeight(.medium)
+                        .foregroundStyle(Color.black)
                 }
                 .padding(.top)
                 .padding(.bottom, 50)
                 
-                CustomTextField(label: "Country", placeholder: "Select your country",text: $country, icon: "chevron.down")
+                CustomTextField(label: "Country Code", placeholder: "Select your country code",text: $country, icon: "chevron.down")
                     .textContentType(.none)
                     .autocorrectionDisabled(true)
                     .autocapitalization(.none)
